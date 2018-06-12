@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+require("reflect-metadata");
+var Router_1 = require("./Router");
+exports.Router = Router_1.DIRouter;
+var decorators_1 = require("./decorators");
+exports.Service = decorators_1.Service;
+exports.Controller = decorators_1.Controller;
+exports.Get = decorators_1.Get;
+exports.Post = decorators_1.Post;
+exports.Put = decorators_1.Put;
+exports.Delete = decorators_1.Delete;
