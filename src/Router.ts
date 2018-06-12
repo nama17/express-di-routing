@@ -38,7 +38,7 @@ export class DIRouter {
             var controller: any = Injector.resolve(this.routes[cName].ctor);
             for (var method in this.routes[cName].methods) {
                 var action: string = this.routes[cName].methods[method];
-                router[method](route, controller[action]);
+                router[method](route, controller[action].bind(controller));
             }
         }
         return router;
