@@ -4,7 +4,10 @@
     "description": "",
     "main": "dist/index.js",
     "keywords": [],
-    "author": "",
+    "author": "Christian Seitz",
+    "repository": {
+        "url": "https://github.com/nama17/express-di-routing"
+    },
     "license": "MIT",
     "dependencies": {
         "express": "~4.16.3",
